@@ -202,4 +202,124 @@ Sample Output 2:
 0 8 6 5
 */
 
+/*
+REVERSE WORDWISE
+
+Reverse the given string word wise. That is, the last word in given string should come at 1st place, last second word at 2nd place and so on. Individual words should remain as it is.
+Input format :
+String in a single line
+Output format :
+Word wise reversed string in a single line
+Constraints :
+0 <= |S| <= 10^7
+where |S| represents the length of string, S.
+Sample Input 1:
+Welcome to Coding Ninjas
+Sample Output 1:
+Ninjas Coding to Welcome
+Sample Input 2:
+Always indent your code
+Sample Output 2:
+code your indent Always
+
+*/
+
+/*
+Find Largest Row or Column
+
+Given an NxM 2D array, you need to find out which row or column has largest sum (sum of its elements) overall amongst all rows and columns.
+Input Format :
+ Line 1 : 2 integers N and M respectively, separated by space 
+ Line 2: Single line having N*M elements entered in row wise manner, each separated by space.
+Output Format :
+ If row sum is maximum then - "row" row_num max_sum
+ If column sum is maximum then - "column" col_num max_sum
+Constraints :
+0 <= N <= 10^4
+0 <= M <= 10^4
+Note : If there are more than one rows/columns with maximum sum consider the row/column that comes first. And if ith row and jth column has same sum (which is largest), consider the ith row as answer.
+Sample Input 1 :
+2 2 
+1 1 1 1
+Sample Output 1 :
+row 0 2
+Sample Input 2 :
+3 3
+3 6 9 1 4 7 2 8 9
+Sample Output 2 :
+column 2 25
+
+*/
+
+/*
+Wave Print
+
+Given a two dimensional N*M array, print the array in a sine wave order. i.e. print the first column top to bottom, next column bottom to top and so on.
+Note : Print the elements separated by space.
+Input format :
+N, M, array elements (separated by space)
+Output format :
+Elements of matrix in wave form in a single line and space separated
+Constraints :
+0 <= N <= 10^4
+0 <= M <= 10^4
+Sample Input 1:
+3 4 1  2  3  4 5  6  7  8 9 10 11 12
+Sample Output 1:
+1 5 9 10 6 2 3 7 11 12 8 4
+Sample Input 2:
+5 3 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Sample Output 2:
+1 4 7 10 13 14 11 8 5 2 3 6 9 12 15 
+
+*/
+
+/*
+Reverse Each Word
+
+Given a string S, reverse each word of a string individually. For eg. if a string is "abc def", reversed string should be "cba fed".
+Input Format :
+String S
+Output Format :
+Modified string
+Constraints :
+0 <= |S| <= 10^7
+where |S| represents the length of string, S.
+Sample Input 1:
+Welcome to Coding Ninjas
+Sample Output 1:
+emocleW ot gnidoC sajniN
+Sample Input 2:
+Give proper names to variables and functions
+Sample Output 2:
+eviG reporp seman ot selbairav dna snoitcnuf
+
+*/
+
+/*
+
+Compress The String
+
+Write a program to do basic string compression. For a character which is consecutively repeated more than once, replace consecutive duplicate occurrences with the count of repetitions.
+For e.g. if a String has 'x' repeated 5 times, replace this "xxxxx" with "x5".
+Note : Consecutive count of every character in input string is less than equal to 9.
+
+
+Input Format :
+String S
+Output Format :
+Compressed string 
+Constraints :
+0 <= |S| <= 10^7
+where |S| represents the length of string, S.
+Sample Input 1 :
+aaabbccdsa
+Sample Output 1 :
+a3b2c2dsa
+Sample Input 2 :
+aaabbcddeeeee
+Sample Output 2 :
+a3b2cd2e5
+
+*/
 
