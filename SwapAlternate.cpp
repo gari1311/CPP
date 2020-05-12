@@ -20,6 +20,25 @@ Sample Output 2 :
 3 9 12 6 32 4 11 5 19
 */
 
+#include<iostream>
+#include "Solution.h"
+using namespace std;
+
+
+int main(){
+  int size;  
+  cin >> size;
+  int* arr = new int[size];
+  for(int i = 0; i < size; i++){
+    cin >> arr[i];
+  } 
+  swapAlternate(arr, size);
+ for(int i = 0; i < size; i++){
+    cout << arr[i] << " ";
+  }
+  delete arr;
+}
+
 void swapAlternate(int arr[],int size){
  
   /* Don't write main().
